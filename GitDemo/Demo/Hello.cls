@@ -1,8 +1,8 @@
 Class Demo.Hello extends %RegisteredObject {
 
-classmethod SayHello()
+classmethod SayHello(pName as %String)
 {
-	w !,"Hello!"
+	w !,"Hello! "_pName
 	return
 }
 }
